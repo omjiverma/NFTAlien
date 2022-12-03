@@ -1,0 +1,66 @@
+.story__card{
+  display: flex;
+  justify-content: center;https://nftAlien.omjiverma.repl.co
+  align-items: center;
+  padding: 1rem;
+  min-width: 200px;
+  max-width: 300px;
+  background-color: var(--color-grey);
+  margin: 1rem 1rem;
+}
+.story__card-content{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.story__card-content > p{
+  font-family: var(--bakbak);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  text-transform: capitalize;
+  color: var(--color-green);
+  opacity: 0.3;
+}
+
+.story__card-content-overlay{
+  margin-top: -2.5rem;
+}
+
+.story__card-content-overlay h3{
+  font-family: var(--bakbak);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.story__card-content-overlay >p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--color-white);
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 1050px){
+  .story__card-content-overlay h3{
+  font-size: 20px;
+  line-height: 26px;
+  }
+  .story__card-content-overlay >p{
+  font-size: 16px;
+  line-height: 24px;
+  }
+}

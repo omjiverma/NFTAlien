@@ -1,0 +1,40 @@
+.alienCard{
+  padding: 1rem;
+  min-width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: var(--color-grey);
+  margin: 1rem 0.5rem
+}
+
+.alienCard-img img{
+  width: 100%;
+}
+
+.alienCard-text h3{
+  font-family: var(--bakbak);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: var(--color-white);
+}
+
+@media only screen and (max-width: 450px){
+    .alienCard-text h3{
+    font-size: 18px;
+  }
+
+  .alienCard{
+    padding: 1rem;
+    min-width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: var(--color-grey);
+    margin: 0.5rem 0.5rem
+  }
+}
+
